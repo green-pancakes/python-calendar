@@ -11,7 +11,7 @@ def volumeDown():
 def turnOnTV():
     window = Toplevel(root)
     window.title("TV")
-    pika = PhotoImage(file="pic1.gif")
+    pika = PhotoImage(file="./images/pic1.gif")
 
     original_image = Label(window, image=pika)
     original_image.image = pika
