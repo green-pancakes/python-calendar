@@ -41,4 +41,3 @@ next_button.grid(row=1, column=9, padx=10, pady=10)
 
 #  start the Tkinter event loop
 root.mainloop()
-
