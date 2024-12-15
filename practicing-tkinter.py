@@ -16,7 +16,7 @@ right_frame.grid(row=0, column=1, padx=10, pady=5)
 Label(left_frame, text="original image").grid(row=0, column=0, padx=5, pady=5)
 
 # load image to be "edited"
-image = PhotoImage(file="pic1.gif")
+image = PhotoImage(file="./images/pic1.gif")
 original_image = image.subsample(3,3) # resize image using "subsampple"
 Label(left_frame, image=original_image).grid(row=1, column=0, padx=5, pady=5)
 
@@ -37,7 +37,6 @@ Label(tool_bar, text="Crop").grid(row=2, column=0, padx=5, pady=5)
 Label(tool_bar, text="Rotate & Flip").grid(row=3, column=0, padx=5, pady=5)
 Label(tool_bar, text="Resize").grid(row=4, column=0, padx=5, pady=5)
 Label(tool_bar, text="Exposure").grid(row=5, column=0, padx=5, pady=5)
-
 
 
 root.mainloop()
